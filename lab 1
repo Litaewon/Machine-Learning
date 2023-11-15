@@ -1,0 +1,57 @@
+james.upper()
+
+james.append()
+
+james.insert(2,'c')
+
+james.extend(james2)
+
+del james[2]
+james.remove(38)
+
+len(james)
+
+my_list = ['a', 'b', 'c']
+for i, element in enumerate(my_list):
+  print("At the index{} is element {}.".format(i, element))
+#### At the index 0 is the elment a. 
+#### At the index 1 is the element b.
+#### At the index 2 is the element c.
+
+string = '163kg'
+weight = string.split('kg')
+print(weight[0])
+
+
+Q2. square2 =  [2, 0, 1, 4]
+
+Q3.
+def within_5_10(num):
+  ans = False
+  if num <= 10 and num >= 5:
+  ans = True
+  return ans
+print(within_5_10(1))
+# False
+
+Q4. 
+def all_positive(nums):
+  ans = True
+  for element in all_positive:
+    if element ==0 or element <0:
+  ans = False
+  return ans
+
+Q5. **********************************
+def get_int_index(my_list):
+  index_of_int = []
+  del get_index_of_int
+
+Q6.
+def volume_sphere(radius):
+    pi = 3.14 # use the approximate value of pi
+    volume = 0 # initialize the volume
+    # YOUR CODE HERE
+    volume = radius*3.14*2
+    return volume
+print(volume_sphere(2))
